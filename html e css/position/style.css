@@ -4,10 +4,12 @@ div {
   background-color: #ccff00;
   margin: -10px 0 20px -10px;
   text-align: center;
+  border-style: solid;
 }
 
+/* quando position não é definido, static é definido por padrão */
+
 .absolute {
-  /* quando oposition não é definido, o static é definido por padrão */
   /* absolute: o elemento "flutua" ficando acima da pagina com uma posição relativa ao item anterior */
   position: absolute;
   left: 150px;
