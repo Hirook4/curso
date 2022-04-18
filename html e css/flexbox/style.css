@@ -5,10 +5,10 @@
 }
 
 .padrao div {
-  background-color: #ccff00;
   margin: 10px;
   padding: 10px;
   font-size: 18px;
+  background-color: #ccff00;
 }
 
 /* com flex */
@@ -21,10 +21,10 @@
 }
 
 .row div {
-  background-color: #ccff00;
   margin: 10px;
   padding: 10px;
   font-size: 18px;
+  background-color: #ccff00;
 }
 
 .row-reverse {
@@ -35,10 +35,10 @@
 }
 
 .row-reverse div {
-  background-color: #ccff00;
   margin: 10px;
   padding: 10px;
   font-size: 18px;
+  background-color: #ccff00;
 }
 
 .column {
@@ -49,10 +49,10 @@
 }
 
 .column div {
-  background-color: #ccff00;
   margin: 10px;
   padding: 10px;
   font-size: 18px;
+  background-color: #ccff00;
 }
 
 .column-reverse {
@@ -63,10 +63,10 @@
 }
 
 .column-reverse div {
-  background-color: #ccff00;
   margin: 10px;
   padding: 10px;
   font-size: 18px;
+  background-color: #ccff00;
 }
 
 /* exemplos flex */
@@ -79,22 +79,106 @@
 
 .div1 {
   flex: 1;
-  background-color: #ccff00;
   margin: 10px;
   padding: 10px;
   font-size: 18px;
+  background-color: #ccff00;
 }
 .div2 {
   flex: 3;
-  background-color: #ccff00;
   margin: 10px;
   padding: 10px;
   font-size: 18px;
+  background-color: #ccff00;
 }
 .div3 {
   flex: 5;
-  background-color: #ccff00;
   margin: 10px;
   padding: 10px;
   font-size: 18px;
+  background-color: #ccff00;
+}
+
+/* Alinhamento */
+
+.wrap {
+  display: flex;
+  /* Wrap permite que os elementos com flex pulem para a linha de baixo se necessario*/
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+.wrap div {
+  /* Mesmo com uma largura grande, por padrão o flexbox reduz seu tamanho para que os elementos não vão para a linha de baixo */
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18;
+  background-color: #ccff00;
+}
+
+.justify-content-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Alinha os itens horizontalmente */
+  background-color: black;
+}
+
+.justify-content-center div {
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #ccff00;
+}
+
+.align-items-center {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Alinha os itens verticalmente */
+  background-color: black;
+}
+
+.align-items-center div {
+  width: 100px;
+  height: 20px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #ccff00;
+}
+
+.justify-align-center {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.justify-align-center div {
+  width: 100px;
+  height: 20px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #ccff00;
+}
+
+.justify-content-between {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+.justify-content-between div {
+  width: 100px;
+  height: 20px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #ccff00;
 }
