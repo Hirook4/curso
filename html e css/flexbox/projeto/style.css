@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: center;
+  height: 120px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 990px;
+  background-color: black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  background-color: purple;
+}
+
+.menu {
+  background-color: yellow;
+}
