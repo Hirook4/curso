@@ -1,0 +1,39 @@
+header {
+  font-size: 55px;
+  text-align: center;
+}
+body {
+  color: white;
+  font-size: 18px;
+  background-color: #404040;
+}
+
+a {
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border: solid;
+  color: #353535;
+}
+
+.techs {
+  font-size: 25px;
+  text-align: center;
+  padding: 15px;
+  margin: 15px;
+  display: flex;
+}
+
+.itens {
+  font-size: 25px;
+  text-align: center;
+  padding: 15px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}

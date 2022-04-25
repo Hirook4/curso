@@ -12,15 +12,46 @@ header {
   display: flex;
   justify-content: space-between;
   width: 990px;
-  background-color: black;
 }
 
 .logo {
   display: flex;
   align-items: center;
-  background-color: purple;
 }
 
 .menu {
-  background-color: yellow;
+  display: flex;
+  align-items: center;
+}
+
+nav ul,
+navli {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav a {
+  display: block;
+  padding: 15px;
+  color: #727272;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Arial;
+}
+
+nav .active a,
+nav a:hover {
+  background-color: #39aae1;
+  color: white;
+}
+
+#banner {
+  background-image: url(assets/banner.png);
+  background-position: center;
+  background-size: cover;
 }
