@@ -1,3 +1,7 @@
+* {
+  font-family: Arial;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -41,7 +45,6 @@ nav a {
   color: #727272;
   text-transform: uppercase;
   text-decoration: none;
-  font-family: Arial;
 }
 
 nav .active a,
@@ -51,7 +54,89 @@ nav a:hover {
 }
 
 #banner {
+  display: flex;
+  justify-content: center;
+  height: 670px;
   background-image: url(assets/banner.png);
   background-position: center;
   background-size: cover;
+}
+
+.banner-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+.banner-head h1 {
+  color: white;
+  font-size: 70px;
+  text-shadow: 0 2px 0 black;
+  margin: 0;
+  padding: 0;
+  max-width: 350px;
+}
+
+.banner-head h2 {
+  color: white;
+  font-size: 24px;
+  text-shadow: 0 1px 0 black;
+  margin: 0;
+  padding: 0;
+  max-width: 350px;
+  margin-top: 30px;
+}
+
+.banner-options {
+  display: flex;
+  height: 210px;
+}
+
+.banner-options a {
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  border: 1px solid white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.banner-title {
+  font-size: 24px;
+}
+
+.banner-desc {
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.banner1,
+.banner2,
+.banner3 {
+  flex: 1;
+  color: white;
+  padding: 20px;
+}
+
+.banner1 {
+  background-color: #39aae1;
+}
+
+.banner2 {
+  background-color: #0079c7;
+}
+
+.banner3 {
+  background-color: #2b4c99;
+}
+
+.column {
+  flex-direction: column;
+}
+
+#geral {
+  display: flex;
+  justify-content: center;
 }
