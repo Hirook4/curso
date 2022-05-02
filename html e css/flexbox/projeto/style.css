@@ -175,3 +175,60 @@ nav a:hover {
   background-color: #39aae1;
   margin-top: 10px;
 }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
+  flex: 1;
+  min-width: 300px;
+  margin-right: 20px;
+}
+
+article a {
+  text-decoration: none;
+}
+
+article .data {
+  display: flex;
+}
+
+article .posted-at {
+  background-color: #2b4c99;
+  color: white;
+  font-size: 12px;
+  padding: 10px;
+}
+
+article .comments {
+  background-color: #39aae1;
+  color: white;
+  font-size: 12px;
+  padding: 10px;
+  margin-left: 3px;
+}
+
+article .thumbnail {
+  margin-top: 30px;
+}
+
+article .thumbnail img {
+  width: 100%;
+  height: auto;
+}
+
+article .news-title {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: black;
+  font-size: 25px;
+}
+
+article .resume {
+  color: #5c5c5c;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
