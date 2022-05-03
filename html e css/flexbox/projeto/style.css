@@ -232,3 +232,103 @@ article .resume {
   line-height: 20px;
   margin-bottom: 30px;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1e1e1e;
+}
+
+.footer-menu {
+  display: flex;
+}
+
+.fm-1,
+.fm-2,
+.fm-3 {
+  flex: 1;
+  color: white;
+  padding: 20px;
+}
+
+.fm-1-text,
+.fm-2-text,
+.fm-3-text {
+  font-size: 12px;
+  color: white;
+}
+
+.fm-1 {
+  background-color: #39aae1;
+}
+
+.fm-2 {
+  background-color: #0079c7;
+}
+
+.fm-3 {
+  background-color: #2b4c99;
+}
+
+.footer-area {
+  display: flex;
+  color: white;
+}
+
+.area-item {
+  flex: 1;
+  color: white;
+}
+
+.gray {
+  color: #999999;
+  font-size: 12px;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.posts {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  color: white;
+  font-size: 12px;
+}
+
+.post-data {
+  font-size: 12px;
+  margin-left: 20px;
+  color: #0081d6;
+}
+
+.tweet {
+  color: #999999;
+  font-size: 12px;
+}
+
+.tweet-data {
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: #0081d6;
+}
+
+.flexColumn {
+  flex-direction: column;
+}
+
+.copy {
+  color: #999999;
+  font-size: 12px;
+  height: 40px;
+  line-height: 40px;
+  border-top: 1px solid #2c2c2c;
+  margin-top: 30px;
+}
