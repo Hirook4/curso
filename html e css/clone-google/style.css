@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.head {
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  border: none;
+  padding: 10px;
+  margin-left: 10px;
+  margin: 0 15px 0 10px;
+  width: 100px;
+  height: 35px;
+  background-color: #008cba;
+  color: white;
+  border-radius: 3px;
+}
+
+.menuimg {
+  padding: 3px 0 0 10px;
+  padding-top: 3px;
+  width: 30px;
+  height: 30px;
+}
+
+/* Centro */
+
+.centro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(250, 250, 250);
+  border-radius: 30px;
+  border: 2px solid rgb(230, 230, 230);
+  width: 550px;
+  height: 50px;
+}
+
+form {
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  width: 450px;
+  margin: 0 0 0 10px;
+  border: none;
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.input {
+  display: flex;
+  margin-top: 30px;
+}
+
+.inputicons {
+  width: 20px;
+  height: 20px;
+}
+
+.inputiconsright {
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+}
+
+.botao-pesquisa {
+  width: 135px;
+  height: 40px;
+  font-size: 15px;
+  background-color: rgb(215, 215, 215);
+  color: black;
+  margin-top: 35px;
+  margin-left: 15px;
+  border: none;
+}
+
+/* Footer */
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.pais {
+  padding: 15px 15px 15px 28px;
+  font-size: 15px;
+  color: rgb(90, 90, 90);
+  background-color: rgb(215, 215, 215);
+  border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+.barra-final {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  font-size: 15px;
+  color: rgb(90, 90, 90);
+  background-color: rgb(215, 215, 215);
+}
+
+.link-footer {
+  padding: 12px;
+  color: rgb(90, 90, 90);
+}
