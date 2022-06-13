@@ -3,6 +3,11 @@ a {
   display: flex;
   flex-direction: column;
 }
+
+h1 {
+  margin-bottom: 0px;
+}
+
 h3 {
   margin-bottom: 5px;
 }
@@ -21,6 +26,14 @@ input[placeholder="teste"] {
 
 input[type="password"] {
   background-color: #10ff00;
+}
+
+.vazio {
+  width: 200px;
+  height: 30px;
+}
+.vazio:empty {
+  background-color: red;
 }
 
 a[href="https://github.com/Hirook4"]
@@ -79,4 +92,28 @@ a[href*="google"] {
   color: white;
   background-color: #ff3e30;
   text-decoration: none;
+}
+
+p::first-letter {
+  font-size: 30px;
+}
+
+p::first-line {
+  background-color: #ccff00;
+}
+
+div {
+  background-color: rgb(51, 0, 255);
+  height: 100px;
+  width: 100px;
+}
+
+div:first-child {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+div:last-child {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
