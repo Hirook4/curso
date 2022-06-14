@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-top: 10px;
+}
+
+div {
+  background-color: #ccff00;
+  border: solid 3px black;
+  width: 100px;
+  height: 100px;
+  margin-left: 100px;
+}
+
+/* transform: scaleX(1); Horizontal
+  transform: scaleY(1); Vertical */
+
+.scale {
+  transform: scale(0.5);
+}
+
+.scale2 {
+  transform: scale(3, 1);
+}
+
+.rotate {
+  transform: rotate(45deg);
+}
+
+/* transform: skew(1); Horizontal
+  transform: skew(1); Vertical */
+
+.skew {
+  transform: skew(50deg);
+}
