@@ -103,17 +103,52 @@ p::first-line {
 }
 
 div {
-  background-color: rgb(51, 0, 255);
+  background-color: black;
+  color: white;
   height: 100px;
   width: 100px;
 }
 
 div:first-child {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  background-color: red;
 }
 
 div:last-child {
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  background-color: blue;
+}
+
+div:nth-child(2) {
+  background-color: green;
+}
+
+span::before {
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  content: "";
+}
+
+span::after {
+  background-color: #ccff00;
+  content: " After";
+}
+
+.balao {
+  display: inline-block;
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+}
+
+.balao::after {
+  content: "";
+  display: block;
+  position: absolute;
+  margin-top: 20px;
+  border: 20px solid;
+  border-color: blue transparent transparent transparent;
 }
