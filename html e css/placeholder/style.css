@@ -1,0 +1,31 @@
+.input {
+  width: 400px;
+  height: 50px;
+  font-size: 35px;
+  color: blue;
+}
+
+/* Versão Mais Atual - Todos os Navegadores Modernos */
+.input::placeholder {
+  color: #ff0000;
+}
+
+/* Navegadores Web-Kit, Blink, Edge */
+.input::-webkit-input-placeholder {
+}
+
+/* Firefox 4 ao 18 */
+.input:-moz-placeholder {
+}
+
+/* Firefox 19+ */
+.input::-moz-placeholder {
+}
+
+/* Internet Explorer 10 e 11 */
+.input:-ms-input-placeholder {
+}
+
+/* Microsoft Edge */
+.input::-ms-input-placeholder {
+}
