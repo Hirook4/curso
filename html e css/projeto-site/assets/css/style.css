@@ -1,16 +1,66 @@
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", "Arial";
 }
 
 header {
   height: 100px;
+  color: white;
   background-color: black;
 }
 
 .header {
+  display: flex;
+  align-items: center;
   max-width: 1150px;
   height: 100px;
   margin: auto;
-  background-color: red;
+}
+
+.logo {
+  width: 100px;
+}
+
+.logoimg {
+  width: 80px;
+  height: 80px;
+  background-color: #b28756;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.menu ul,
+.menu li {
+  list-style: none;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu li a {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  border-bottom: 5px solid black;
+}
+
+.menu li a:hover,
+.menu .active a {
+  border-bottom: 5px solid #b28756;
 }
