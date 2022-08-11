@@ -6,6 +6,7 @@
 
 body {
   font-family: "Montserrat", "Arial";
+  overflow-x: hidden;
 }
 
 header {
@@ -130,7 +131,7 @@ header {
   position: absolute;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 100%; /* Era 100vw */
   height: 20px;
   margin-top: -50px;
 }
@@ -147,4 +148,50 @@ header {
 
 .banner .pointer.active {
   background-color: #b28756;
+}
+
+.default {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.default .section-title,
+.default .section-desc {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.default .section-title {
+  font-size: 20px;
+}
+
+.default .section-desc {
+  font-size: 12px;
+  color: #ccc;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.default .section-body {
+  margin: auto;
+  max-width: 1150px;
+  min-height: 100px;
+  background-color: gray;
+}
+
+.default.light {
+  background-color: #f7f7f7;
+}
+
+.default.light .section-title {
+  color: black;
+}
+
+.default.dark {
+  background-color: black;
+}
+
+.default.dark .section-title {
+  color: white;
 }
