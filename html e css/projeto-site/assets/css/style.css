@@ -542,6 +542,8 @@ footer {
 
 /* Responsividade */
 
+/* Tablet */
+
 @media (min-width: 450px) and (max-width: 800px) {
   .logo {
     margin-left: 30px;
@@ -634,5 +636,152 @@ footer {
 
   .section-map-info-item:last-child {
     margin-bottom: 0;
+  }
+}
+
+/* Celular */
+
+@media (max-width: 450px) {
+  .logo {
+    margin-left: 30px;
+  }
+
+  .menu-opener {
+    display: block;
+    width: 45px;
+    margin-right: 30px;
+  }
+
+  nav {
+    display: none;
+    position: absolute;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 78vw;
+    height: calc(100vh - 100px);
+    top: 100px;
+    right: 0;
+  }
+
+  .menu ul {
+    flex-direction: column;
+  }
+
+  .menu li a {
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+    border: 0;
+  }
+
+  .menu li.active a {
+    border: 0;
+    color: #b28756;
+  }
+
+  .banner h1 {
+    font-size: 30px;
+  }
+
+  .banner h2 {
+    font-size: 18px;
+  }
+
+  .section-aboutus {
+    flex-direction: column;
+  }
+
+  .section-aboutus-left {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+
+  .section-aboutus-right {
+    width: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .section-aboutus-right img {
+    width: 100%;
+  }
+
+  .section-aboutus a {
+    display: none;
+  }
+
+  .section-services {
+    flex-wrap: wrap;
+  }
+
+  .section-service {
+    min-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .section-service:first-child {
+    border-left: 0;
+  }
+
+  .section-projects-filters {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .section-projects-photo {
+    width: 320px;
+  }
+
+  .section-projects-photoarea {
+    width: 300px;
+    height: 190px;
+  }
+
+  .section-team {
+    max-width: 280px;
+  }
+
+  .section-map-info {
+    width: auto;
+  }
+
+  .section-map {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .section-map {
+    padding: 0;
+    padding-bottom: 250px;
+  }
+
+  .section-map-area {
+    height: auto;
+  }
+
+  .section-map-info-item {
+    margin-bottom: 20px;
+  }
+
+  .section-map-info-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .footer-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .area2 {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .area3 {
+    margin-right: 20px;
   }
 }
