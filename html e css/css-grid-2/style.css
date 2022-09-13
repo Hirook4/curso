@@ -12,12 +12,10 @@
   padding: 20px;
 }
 
+/* Exercicio 1 */
 .item1 {
   grid-column-start: 1;
   grid-column-end: 4;
-}
-
-.item2 {
 }
 
 .item3 {
@@ -34,4 +32,37 @@
 
   grid-row-start: 5;
   grid-row-end: 7;
+}
+
+/* Exercicio 2 */
+.item-5 {
+  background-color: #990000;
+
+  grid-column-start: 1;
+  grid-column-end: 3;
+
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+.item-7 {
+  background-color: #ccff00;
+  color: black;
+
+  grid-column-start: 3;
+  grid-column-end: 4;
+
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+
+.item-11 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+/* Exercicio 3 */
+
+.item--1 {
+  grid-column: 1/3;
+  grid-row: 1/3;
 }
