@@ -14,6 +14,6 @@ https://hirook4.github.io/Curso/
 
 ![](Print01.png)
 
-### [Site Awax (Responsivo)](https://hirook4.github.io/Curso/html%20e%20css/projeto-site/index.html)
+### [Site Empresa (Responsivo)](https://hirook4.github.io/Curso/html%20e%20css/projeto-site/index.html)
 
 ![](Print02.png)
