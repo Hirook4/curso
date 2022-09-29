@@ -7,7 +7,7 @@
 }
 
 .item {
-  color: white;
+  color: #ffffff;
   background-color: rgb(20, 30, 30);
   font-size: 25px;
   border-radius: 10px;
@@ -23,7 +23,7 @@
 }
 
 .item2 {
-  color: white;
+  color: #ffffff;
   background-color: rgb(20, 28, 30);
   font-size: 25px;
   border-radius: 10px;
@@ -39,7 +39,7 @@
 }
 
 .item3 {
-  color: white;
+  color: #ffffff;
   background-color: rgb(20, 28, 30);
   font-size: 25px;
   border-radius: 10px;
@@ -62,7 +62,7 @@
 }
 
 .item4 {
-  color: white;
+  color: #ffffff;
   background-color: rgb(20, 28, 30);
   font-size: 25px;
   border-radius: 10px;
@@ -80,7 +80,7 @@
 }
 
 .item5 {
-  color: white;
+  color: #ffffff;
   background-color: rgb(20, 28, 30);
   font-size: 25px;
   border-radius: 10px;
@@ -101,7 +101,7 @@
 }
 
 .item6 {
-  color: white;
+  color: #ffffff;
   background-color: rgb(20, 28, 30);
   font-size: 25px;
   border-radius: 10px;
@@ -117,7 +117,7 @@
 }
 
 .ex-item {
-  color: white;
+  color: #ffffff;
   background-color: rgb(20, 30, 30);
   font-size: 25px;
   border-radius: 10px;
@@ -131,7 +131,7 @@
 
 .ex-item3 {
   background-color: #990000;
-  color: white;
+  color: #ffffff;
 
   grid-column-start: 2;
   grid-column-end: 4;
@@ -142,7 +142,7 @@
 
 .ex-item8 {
   background-color: #990000;
-  color: white;
+  color: #ffffff;
 
   grid-column-start: 3;
   grid-column-end: 4;
@@ -164,7 +164,7 @@
 
 .ex2-item7 {
   background-color: #990000;
-  color: white;
+  color: #ffffff;
 
   grid-column-start: 3;
   grid-column-end: 4;
@@ -196,13 +196,13 @@ grid-column-end
 
 .grid-item1 {
   background-color: #990000;
-  color: white;
+  color: #ffffff;
   grid-area: 1 / 1 / 4 / 3;
 }
 
 .grid-item6 {
   background-color: #990000;
-  color: white;
+  color: #ffffff;
   grid-area: 4 / 2 / 6 / 4;
 }
 

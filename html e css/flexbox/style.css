@@ -1,7 +1,7 @@
 /* sem flex */
 
 .padrao {
-  background-color: black;
+  background-color: #000000;
 }
 
 .padrao div {
@@ -17,7 +17,7 @@
   /* por padrão o flexbox vai ser organizado horizontalmente da esquerda para a direita */
   display: flex;
   flex-direction: row;
-  background-color: black;
+  background-color: #000000;
 }
 
 .row div {
@@ -31,7 +31,7 @@
   /* os elementos são exibidos em linha da direita para a esquerda */
   display: flex;
   flex-direction: row-reverse;
-  background-color: black;
+  background-color: #000000;
 }
 
 .row-reverse div {
@@ -45,7 +45,7 @@
   /* os elementos são exibidos em colunas */
   display: flex;
   flex-direction: column;
-  background-color: black;
+  background-color: #000000;
 }
 
 .column div {
@@ -59,7 +59,7 @@
   /* os elementos são exibidos em colunas de baixo para cima */
   display: flex;
   flex-direction: column-reverse;
-  background-color: black;
+  background-color: #000000;
 }
 
 .column-reverse div {
@@ -74,7 +74,7 @@
 .exemplo {
   display: flex;
   flex-direction: row;
-  background-color: black;
+  background-color: #000000;
 }
 
 .div1 {
@@ -105,11 +105,11 @@
   display: flex;
   /* Wrap permite que os elementos com flex pulem para a linha de baixo se necessario*/
   flex-wrap: wrap;
-  background-color: black;
+  background-color: #000000;
 }
 
 .wrap div {
-  /* Mesmo com uma largura grande, por padrão o flexbox reduz seu tamanho para que os elementos não vão para a linha de baixo */
+  /* Mesmo com uma largura grande, por padrão o flexbox #FF0000uz seu tamanho para que os elementos não vão para a linha de baixo */
   width: 200px;
   margin: 10px;
   padding: 10px;
@@ -121,7 +121,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center; /* Alinha os itens horizontalmente */
-  background-color: black;
+  background-color: #000000;
 }
 
 .justify-content-center div {
@@ -137,7 +137,7 @@
   display: flex;
   flex-direction: row;
   align-items: center; /* Alinha os itens verticalmente */
-  background-color: black;
+  background-color: #000000;
 }
 
 .align-items-center div {
@@ -154,7 +154,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: #000000;
 }
 
 .justify-align-center div {
@@ -171,7 +171,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
+  background-color: #000000;
 }
 
 .justify-content-between div {

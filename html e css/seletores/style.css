@@ -16,7 +16,7 @@ a {
   margin-bottom: 30px;
 }
 
-input[required] {
+input[requi#FF0000] {
   background-color: #ccff00;
 }
 
@@ -33,7 +33,7 @@ input[type="password"] {
   height: 30px;
 }
 .vazio:empty {
-  background-color: red;
+  background-color: #ff0000;
 }
 
 a[href="https://github.com/Hirook4"]
@@ -44,10 +44,10 @@ a[href="https://github.com/Hirook4"]
   height: 50px;
   font-size: 30px;
   padding-top: 15px;
-  border: white 1px solid;
+  border: #ffffff 1px solid;
   border-radius: 10px;
-  color: white;
-  background-color: black;
+  color: #ffffff;
+  background-color: #000000;
   text-decoration: none;
 }
 
@@ -59,9 +59,9 @@ a[href^="https://www.linkedin"]
   height: 50px;
   font-size: 30px;
   padding-top: 15px;
-  border: white 1px solid;
+  border: #ffffff 1px solid;
   border-radius: 10px;
-  color: white;
+  color: #ffffff;
   background-color: #0e76a8;
   text-decoration: none;
 }
@@ -73,7 +73,7 @@ a[href$="index.html"] {
   height: 50px;
   font-size: 30px;
   padding-top: 15px;
-  border: white 1px solid;
+  border: #ffffff 1px solid;
   border-radius: 10px;
   color: rgb(0, 255, 15);
   background-color: #000000;
@@ -87,9 +87,9 @@ a[href*="google"] {
   height: 50px;
   font-size: 30px;
   padding-top: 15px;
-  border: white 1px solid;
+  border: #ffffff 1px solid;
   border-radius: 10px;
-  color: white;
+  color: #ffffff;
   background-color: #ff3e30;
   text-decoration: none;
 }
@@ -103,14 +103,14 @@ p::first-line {
 }
 
 div {
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #ffffff;
   height: 100px;
   width: 100px;
 }
 
 div:first-child {
-  background-color: red;
+  background-color: #ff0000;
 }
 
 div:last-child {
@@ -118,11 +118,11 @@ div:last-child {
 }
 
 div:nth-child(2) {
-  background-color: green;
+  background-color: #008000;
 }
 
 span::before {
-  background-color: black;
+  background-color: #000000;
   width: 20px;
   height: 20px;
   display: inline-block;
@@ -141,7 +141,7 @@ span::after {
   padding: 20px;
   border-radius: 20px;
   background-color: blue;
-  color: white;
+  color: #ffffff;
 }
 
 .balao::after {

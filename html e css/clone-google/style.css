@@ -19,7 +19,7 @@ header {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #000000;
 }
 
 .login {
@@ -34,7 +34,7 @@ a {
   width: 100px;
   height: 35px;
   background-color: #008cba;
-  color: white;
+  color: #ffffff;
   border-radius: 3px;
 }
 
@@ -98,7 +98,7 @@ input {
   height: 40px;
   font-size: 15px;
   background-color: rgb(215, 215, 215);
-  color: black;
+  color: #000000;
   margin-top: 35px;
   margin-left: 15px;
   border: none;

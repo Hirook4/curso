@@ -11,8 +11,8 @@ body {
 
 header {
   height: 100px;
-  color: white;
-  background-color: black;
+  color: #ffffff;
+  background-color: #000000;
 }
 
 .header {
@@ -62,8 +62,8 @@ header {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 600;
-  color: white;
-  border-bottom: 5px solid black;
+  color: #ffffff;
+  border-bottom: 5px solid #000000;
 }
 
 .menu li a:hover,
@@ -79,7 +79,7 @@ header {
   font-size: 12px;
   font-weight: 600;
   background-color: #b28756;
-  color: white;
+  color: #ffffff;
   padding: 10px 30px;
   margin-top: 30px;
   border-radius: 20px;
@@ -112,7 +112,7 @@ header {
   height: 100%;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #ffffff;
 }
 
 .banner h1 {
@@ -188,16 +188,16 @@ header {
 
 .default.light .section-title,
 .default.light .section-body {
-  color: black;
+  color: #000000;
 }
 
 .default.dark {
-  background-color: black;
+  background-color: #000000;
 }
 
 .default.dark .section-title,
 .default.dark .section-body {
-  color: white;
+  color: #ffffff;
 }
 
 /* Areas Especificas */
@@ -319,7 +319,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #ffffff;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.5);
   width: inherit;
@@ -362,7 +362,7 @@ header {
   display: inline-block;
   width: 280px;
   height: 100%;
-  background-color: white;
+  background-color: #ffffff;
   margin-right: 20px;
 }
 
@@ -373,7 +373,7 @@ header {
   height: 100%;
   justify-content: center;
   align-items: center;
-  color: black;
+  color: #000000;
 }
 
 .section-team-area .sliderpointer {
@@ -424,7 +424,7 @@ header {
   border-radius: 13px;
   width: 30px;
   height: 30px;
-  background-color: black;
+  background-color: #000000;
   margin-right: 10px;
 }
 
@@ -449,8 +449,8 @@ header {
 .section-map-info {
   width: 50%;
   padding: 30px;
-  background-color: white;
-  color: black;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .section-map-info-item {
@@ -464,7 +464,7 @@ header {
   justify-content: center;
   align-items: center;
   padding: 5px;
-  background-color: black;
+  background-color: #000000;
   border-radius: 15px;
   width: 30px;
   height: 30px;
@@ -478,7 +478,7 @@ header {
 
 /* Rodape */
 footer {
-  background-color: black;
+  background-color: #000000;
   padding: 20px;
 }
 
@@ -486,7 +486,7 @@ footer {
   display: flex;
   max-width: 1140px;
   margin: auto;
-  color: white;
+  color: #ffffff;
 }
 
 .footer-item {
@@ -517,7 +517,7 @@ footer {
 }
 
 .footer-item.area2 {
-  color: white;
+  color: #ffffff;
   line-height: 20px;
   font-size: 12px;
   padding: 0 10px 10px 10px;

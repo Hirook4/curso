@@ -22,7 +22,7 @@ button {
   width: 100px;
   height: 35px;
   background-color: #008cba;
-  color: white;
+  color: #ffffff;
   border-radius: 3px;
 }
 
@@ -78,7 +78,7 @@ img {
   border-radius: 10px;
   width: 400px;
   font-size: 20px;
-  background-color: white;
+  background-color: #ffffff;
   color: #494949;
 }
 

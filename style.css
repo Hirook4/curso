@@ -9,14 +9,14 @@ header {
   text-align: center;
 }
 body {
-  color: white;
+  color: #ffffff;
   font-size: 18px;
   background-color: #404040;
 }
 
 a {
   margin: 10px;
-  color: white;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -47,10 +47,10 @@ img {
 
 a[tipo="projeto"] {
   background-color: #ccff00;
-  color: black;
+  color: #000000;
 }
 /* 
 a:nth-last-child(-n + 4) {
   background-color: #ccff00ab;
-  color: black;
+  color: #000000;
 } */
