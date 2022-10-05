@@ -109,7 +109,7 @@
 }
 
 .wrap div {
-  /* Mesmo com uma largura grande, por padrão o flexbox #FF0000uz seu tamanho para que os elementos não vão para a linha de baixo */
+  /* Mesmo com uma largura grande, por padrão o flexbox reduz seu tamanho para que os elementos não vão para a linha de baixo */
   width: 200px;
   margin: 10px;
   padding: 10px;

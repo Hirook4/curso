@@ -16,7 +16,7 @@ a {
   margin-bottom: 30px;
 }
 
-input[requi#FF0000] {
+input[required] {
   background-color: #ccff00;
 }
 
