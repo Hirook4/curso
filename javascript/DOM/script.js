@@ -13,14 +13,6 @@ console.log(document.querySelector('h1'));
 console.log('Selecionando Elementos Dentro de Outros');
 console.log(document.querySelectorAll('#teste ul li'));
 
-// onClick
-function clicou() {
-    alert("Click");
-}
-
-document.querySelector('.botao').addEventListener("click", function () {
-    clicou()
-});
 
 // Manipulando Elementos
 function mudar() {
@@ -66,3 +58,43 @@ function clickClass() {
     const h1 = document.querySelector('h1');
     h1.classList.toggle('amarelo');
 }
+
+// onClick
+function clicou() {
+    alert("Click");
+}
+
+document.querySelector('.botao').addEventListener("click", function () {
+    clicou()
+});
+
+// onKey
+function apertou() {
+    console.log('APERTOU')
+}
+
+function segurou() {
+    console.log('SEGUROU')
+}
+
+function soltou() {
+    console.log('SOLTOU');
+}
+
+document.addEventListener('keydown', apertou) // Funcionar na tela toda
+
+// Lista de Tarefas
+
+const input = document.querySelector('input');
+const lista = document.getElementById('lista');
+
+function soltar(e) {
+    if (e.key === 'Enter') {
+        let newLi = document.createElement("li");
+        newLi.innerText = input.value;
+        lista.appendChild(newLi);
+        input.value = '';
+    }
+}
+
+input.addEventListener('keyup', soltar);
