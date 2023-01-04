@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Abir Console</h1>
+    API = https://jsonplaceholder.typicode.com/posts <br> <br>
+    <button onclick="load()">Carregar Posts</button> <br> <br>
+    <div id="posts"></div>
+
+    <div id="posts2"></div>
+    <button onclick="inserirPost()">Inserir POST</button>
+
+    <h3>Upload de Arquivo</h3>
+    <input id="arquivo" type="file"> <br> <br>
+    <button onclick="enviar()">Enviar</button> <br> <br>
+
+    <h3>Thumbnail</h3>
+    <input id="imagem" type="file" accept="image/*">
+    <button onclick="mostrar()">Mostrar</button>
+    <div id="area"></div> <br> <br>
+
+    <h3>Thumbnail FileReader</h3>
+    <input id="imagem2" type="file" accept="image/*">
+    <button onclick="mostrar2()">Mostrar</button>
+    <div id="area2"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
