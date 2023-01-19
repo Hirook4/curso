@@ -1,4 +1,3 @@
-
 // Função que seleciona o item
 const c = (e) => {
     return document.querySelector(e);
@@ -9,6 +8,9 @@ const cs = (e) => {
     return document.querySelectorAll(e);
 }
 
+let qtd = 1;
+
+// Listagem das Pizzas
 pizzaJson.map((item, index) => {
     // Clona a estrutura model
     let pizzaItem = c('.models .pizza-item').cloneNode(true);
@@ -28,11 +30,23 @@ pizzaJson.map((item, index) => {
         // Populando Modal
         let key = e.target.closest('.pizza-item').getAttribute('data-key')
         console.log(pizzaJson[key]);
+        qtd = 1;
 
         c('.pizzaBig img').src = pizzaJson[key].img;
         c('.pizzaInfo h1').innerHTML = pizzaJson[key].name;
         c('.pizzaInfo--desc').innerHTML = pizzaJson[key].description;
+        c('.pizzaInfo--actualPrice').innerHTML = `R$ ${pizzaJson[key].price.toFixed(2)}`
 
+        c('.pizzaInfo--size.selected').classList.remove('selected'); // Remove a Seleção do Tamanho
+
+        cs('.pizzaInfo--size').forEach((size, index) => {
+            if (index == 2) { // Tamanho Grande Selecionado Por Padrão
+                size.classList.add('selected');
+            }
+            size.querySelector('span').innerHTML = pizzaJson[key].sizes[index]
+        });
+
+        c('.pizzaInfo--qt').innerHTML = qtd;
 
         c('.pizzaWindowArea').style.opacity = 0;
         c('.pizzaWindowArea').style.display = 'flex';
@@ -45,3 +59,15 @@ pizzaJson.map((item, index) => {
     // Preenche Modelo
     c('.pizza-area').append(pizzaItem);
 });
+
+// Eventos Modal
+function closeModal(params) {
+    c('.pizzaWindowArea').style.opacity = 0;
+    setTimeout(() => {
+        c('.pizzaWindowArea').style.display = 'none';
+    }, 500)
+}
+
+cs('.pizzaInfo--cancelButton, .pizzaInfo--cancelMobileButton').forEach((item) => {
+    item.addEventListener('click', closeModal);
+})
