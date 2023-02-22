@@ -6,18 +6,19 @@ https://hirook4.github.io/Curso/
 
 ## Exemplos de Projetos HTML/CSS
 
-### [Tela de Cadastro](https://hirook4.github.io/Curso/html%20e%20css/formulario/index.html)
+<div align="center">
 
-![](images/Print00.png)
+<a href="https://hirook4.github.io/Curso/html%20e%20css/formulario/index.html" target="_blank"><img src="images/Print00.png" width="24%"></a>
+<a href="https://hirook4.github.io/Curso/html%20e%20css/clone-google/index.html" target="_blank"><img src="images/Print01.png" width="24%"></a>
+<a href="https://hirook4.github.io/Curso/html%20e%20css/site-starbucks/index.html" target="_blank"><img src="images/Print03.png" width="24%"></a>
+<a href="https://hirook4.github.io/Curso/html%20e%20css/site-empresa/index.html" target="_blank"><img src="images/Print02.png" width="24%"></a>
 
-### [Clone Google](https://hirook4.github.io/Curso/html%20e%20css/clone-google/index.html)
+</div>
 
-![](images/Print01.png)
+## Exemplos de Projetos Javascript
 
-### [Starbucks (Responsivo)](https://hirook4.github.io/Curso/html%20e%20css/site-starbucks/index.html)
+<div align="center">
 
-![](images/Print03.png)
+<a href="https://hirook4.github.io/Curso/javascript/projeto-pizzaria/index.html" target="_blank"><img src="images/Print04.png" width="24%"></a>
 
-### [Site Empresa (Responsivo)](https://hirook4.github.io/Curso/html%20e%20css/projeto-site/index.html)
-
-![](images/Print02.png)
+</div>
