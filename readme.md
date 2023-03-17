@@ -20,5 +20,6 @@ https://hirook4.github.io/Curso/
 <div align="center">
 
 <a href="https://hirook4.github.io/Curso/javascript/projeto-pizzaria/index.html" target="_blank"><img src="images/Print04.png" width="24%"></a>
+<a href="https://hirook4.github.io/Curso/javascript/projeto-cadastro/index.html" target="_blank"><img src="images/Print05.png" width="24%"></a>
 
 </div>
