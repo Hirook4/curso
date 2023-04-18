@@ -44,11 +44,5 @@ img {
 }
 
 a[tipo="projeto"] {
-  background-color: #ccff00;
-  color: #000000;
+  background-color: rgb(50, 130, 150);
 }
-/* 
-a:nth-last-child(-n + 4) {
-  background-color: #ccff00ab;
-  color: #000000;
-} */
