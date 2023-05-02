@@ -2,7 +2,7 @@
 
 https://hirook4.github.io/Curso/
 
-## Exemplos de Projetos HTML/CSS
+## Projetos HTML/CSS
 
 <div align="center">
 
@@ -13,7 +13,7 @@ https://hirook4.github.io/Curso/
 
 </div>
 
-## Exemplos de Projetos Javascript
+## Projetos Javascript
 
 <div align="center">
 

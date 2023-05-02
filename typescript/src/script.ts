@@ -1,6 +1,7 @@
 /* tsc src/script.ts Gera Arquivo
-tsc src/script.ts --noEmitOnError
-Não gera arquivo se tiver erro no codigo */
+tsc src/script.ts -w Watchmode - Live Server Typescript
+tsc src/script.ts --noEmitOnError - Não gera arquivo se tiver erro no codigo 
+*/
 
 console.log("Exemplos de Tipagem");
 let nome: string = "Leo";
@@ -91,3 +92,46 @@ resumo2({
   nome: "leonardo",
   idade: 25,
 });
+
+// Assertions
+
+let idadeField = document.getElementById("idade") as HTMLInputElement;
+console.log(idadeField.value);
+
+// Type Literal (Mais ou menos inuteis)
+function mostraTexto(texto: string, alinhamento: "left" | "right" | "center") {
+  return `<div style=text.align: ${alinhamento}">${texto}</div>`;
+}
+
+mostraTexto("A", "left");
+mostraTexto("B", "right");
+// mostraTexto("C", "blabla"); Nao sera aceito
+
+// Inferência literal
+function requisicao(url: string, method: "GET" | "POST") {}
+
+type RequestDetails = {
+  url: string;
+  method: "GET" | "POST";
+};
+
+let req: RequestDetails = {
+  url: "https://google.com.br",
+  method: "GET",
+};
+
+requisicao(req.url, req.method);
+
+// Type para Funcoes
+type MathFunction = (n1: number, n2: number) => number;
+
+const somar2: MathFunction = (n1, n2) => {
+  return n1 + n2;
+};
+
+// Retorno Void
+function removerElemento(el: HTMLElement): void {
+  el.remove();
+}
+
+// removerElemento(document.getElementById("teste"));
