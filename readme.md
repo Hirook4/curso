@@ -6,7 +6,7 @@ https://hirook4.github.io/curso/
 
 <div align="center">
 
-<a href="https://hirook4.github.io/curso/html%20e%20css/l8burger/index.html" target="_blank"><img src="images/burger.png.png" width="24%"></a>
+<a href="https://hirook4.github.io/curso/html%20e%20css/l8burger/index.html" target="_blank"><img src="images/burger.png" width="24%"></a>
 <a href="https://hirook4.github.io/curso/html%20e%20css/clone-google/index.html" target="_blank"><img src="images/google.png" width="24%"></a>
 <a href="https://hirook4.github.io/curso/html%20e%20css/site-starbucks/index.html" target="_blank"><img src="images/starbucks.png" width="24%"></a>
 <a href="https://hirook4.github.io/curso/html%20e%20css/site-empresa/index.html" target="_blank"><img src="images/site-empresa.png" width="24%"></a>
