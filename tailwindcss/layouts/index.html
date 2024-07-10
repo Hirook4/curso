@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>TailwindCSS Layout e Responsividade</title>
+</head>
+
+<body class="mx-3 bg-[#121212]">
+    <div class="container mx-auto bg-red-200">
+        <!-- tamanhos container
+        NONE = width: 100%
+        SM (small) = max-width: 640px
+        MD (medium) = max-width: 768px
+        LG (large) = max-width: 1024px
+        XL (extra-large) = max-width: 1280px
+        2XL (extra-extra-large) = max-width: 1536px -->
+        <div>Lorem ipsum dolor <span>texto qualquer</span> sit amet consectetur adipisicing elit. Magnam similique odio,
+            deleniti incidunt possimus molestiae quo, sint corporis distinctio reprehenderit eum iure odit iste. Odit
+            aliquid quos id pariatur labore.</div>
+    </div><br>
+    <h1 class="xl text-white text-3xl">Responsividade</h1>
+    <div class="bg-yellow-500 sm:bg-green-500 md:bg-blue-500 md:p-10">Pequeno Amarelo, medio verde, grande azul com
+        padding</div> <br>
+
+    <h1 class="xl text-white text-3xl">Flex</h1>
+    <p class="text-white">Praticamente igual o flexbox normal, melhor olhar a doc do que anotar tudo aqui</p>
+    <div class="flex gap-2 justify-center">
+        <div class="rounded-md bg-blue-500 text-white p-4">01</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">02</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">03</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">04</div>
+
+    </div>
+
+    <p class="text-white">tela pequena fica ROW, tambem estamos trocando ordem</p>
+    <div class="flex gap-2 flex-col justify-center sm:flex-row">
+        <div class="order-last rounded-md bg-red-500 text-white p-4">01</div>
+        <div class="order-first rounded-md bg-green-500 text-white p-4">02</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">03</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">04</div>
+    </div>
+
+    <h1 class="xl text-white text-3xl">Grid</h1><br>
+    <div class="grid grid-cols-3 gap-3">
+        <div class="col-span-full rounded-md bg-blue-500 text-white p-4">full</div>
+        <div class="col-span-2 rounded-md bg-blue-500 text-white p-4">2 de tamanho (2 colunas)</div>
+        <div class="col-start-2 col-end-4 rounded-md bg-blue-500 text-white p-4">começa na coluna 2 e termina na 4</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">04</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">05</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">06</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">07</div>
+        <div class="row-start-4 rounded-md bg-blue-500 text-white p-4">começando na linha 4, porem esse item estava la
+            em baixo</div>
+        <div class="col-span-full rounded-md bg-blue-500 text-white p-4">09</div>
+    </div><br>
+
+    <h1 class="xl text-white text-3xl">Background</h1><br>
+    <div class="flex gap-10">
+        <div
+            class="w-40 h-40 overflow-y-scroll bg-local bg-[url(https://images.unsplash.com/photo-1614448503420-a136a001c2e3?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)]">
+            pegando background por URL.<br><br>bg-local roda a imagem junto com o scroll.<br><br>Lorem ipsum dolor sit
+            amet,
+            consectetur adipisicing elit. Ex
+            voluptatibus ea cumque, nesciunt vel explicabo,
+            similique cupiditate delectus aperiam nam fugiat! Distinctio nulla atque quisquam natus, magni quaerat sequi
+            fugit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati quaerat a aspernatur, nihil fugit
+            earum porro quae atque id officiis minus placeat culpa sequi adipisci velit! Ea quo saepe ducimus!
+        </div>
+
+        <div
+            class="text-white w-40 h-40 bg-right-bottom bg-[url(https://images.unsplash.com/photo-1614448503420-a136a001c2e3?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)]">
+            mostrando lado direito superior da imagem
+        </div>
+
+        <div
+            class="w-40 h-40 bg-cover bg-center bg-[url(https://images.unsplash.com/photo-1614448503420-a136a001c2e3?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)]">
+            bg-cover e bg-center
+        </div>
+
+        <div class="text-white w-40 h-40 bg-gradient-to-r from-sky-500 to-indigo-500">gradiente da esquerda pra direita
+        </div>
+
+        <div class="text-white w-40 h-40 bg-green-500 transition-all duration-500 ease-linear hover:w-full">
+            animação
+        </div>
+
+        <div class="text-white w-40 h-40 bg-purple-500 animate-spin">
+            girando
+        </div>
+    </div><br>
+
+    <h1 class="xl text-white text-3xl">SVG</h1><br>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="size-5 w-24 h-24 fill-purple-500 stroke-green-500 stroke-2">
+        <path stroke-linecap="round" stroke-linejoin="round"
+            d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+    </svg><br>
+
+    <h1 class="xl text-white text-3xl">Loading</h1><br>
+    <div class="w-12 h-12 border-8 border-blue-200 border-r-blue-600 border-t-blue-600 rounded-full animate-spin"></div>
+    <br>
+
+    <h1 class="xl text-white text-3xl">Hero Card</h1><br>
+    <div class="rounded-xl overflow-hidden p-6 bg-slate-800 md:flex md:p-0">
+        <div
+            class="w-24 h-24 rounded-full mx-auto bg-cover bg-center md:w-48 md:h-auto md:rounded-none bg-[url('/solaire.jpg')]">
+        </div>
+        <div class="pt-6 text-center grow md:p-8 md:text-left">
+            <p class="text-lg text-white">"O sol é um maravilhoso corpo. Como um pai magnificiente, se apenas eu pudesse
+                ser tão rudemente
+                incandescente!"</p>
+            <p class="mt-3 font-bold text-sky-400">Solaire de Astora</p>
+            <p class="text-slate-500">Morto-Vivo, Lordran</p>
+        </div>
+    </div>
+
+    <h1 class="xl text-white text-3xl">Grid Exercicio</h1><br>
+    <div class="p-3 rounded-md bg-gray-400">
+        <div class="grid grid-cols-1 gap-2 md:grid-cols-3">
+            <div
+                class="md:col-span-2 md:row-span-2 md:h-full w-full h-60 bg-cover bg-center
+                bg-[url(https://amazingarchitecture.com/storage/files/1/Architecture%20firms/Kireeva%20Anna/Black%20house%20in%20the%20woods/Black-house-in-the-woods-Kireeva-Anna-USA-001.jpg)]">
+            </div>
+            <div
+                class="w-full h-60 bg-cover bg-center  bg-[url(https://amazingarchitecture.com/storage/files/1/Architecture%20firms/Kireeva%20Anna/Black%20house%20in%20the%20woods/Black-house-in-the-woods-Kireeva-Anna-USA-003.jpg)]">
+            </div>
+            <div
+                class="w-full h-60 bg-cover bg-center  bg-[url(https://amazingarchitecture.com/storage/files/1/Architecture%20firms/Kireeva%20Anna/Black%20house%20in%20the%20woods/Black-house-in-the-woods-Kireeva-Anna-USA-006.jpg)]">
+            </div>
+        </div>
+        <div class="text-2xl font-bold mt-3">Titulo</div>
+        <div class="flex gap-2 mt-3">
+            <div class="rounded-full px-3 py-1 text-sm bg-green-700 text-white">Campo</div>
+            <div class="rounded-full px-3 py-1 text-sm bg-green-700 text-white">Moderno</div>
+            <div class="rounded-full px-3 py-1 text-sm bg-green-700 text-white">Piscina</div>
+        </div>
+    </div><br>
+
+    <h1 class="xl text-white text-3xl text-white">Grid Exercicio 2</h1><br>
+    <table class="w-full mx-2">
+        <thead>
+            <tr class="border-b text-left text-sm border-gray-200 text-white">
+                <th class="py-2">Nome</th>
+                <th class="hidden md:table-cell">Titulo</th>
+                <th class="hidden md:table-cell">e-mail</th>
+                <th>Idade</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="border-b text-left text-sm border-gray-200 text-white">
+                <td class="py-2">
+                    <p class="font-bold text-blue-300">Leonardo</p>
+                    <p class="block md:hidden">Programador</p>
+                    <p class="block md:hidden">leo@leo.leo</p>
+                </td>
+                <td class="hidden md:table-cell">Programador</td>
+                <td class="hidden md:table-cell">leo@leo.leo</td>
+                <td>25</td>
+                <td><a href="">Editar</a></td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr class="border-b text-left text-sm border-gray-200 text-white">
+                <td class="py-2">
+                    <p class="font-bold text-blue-300">Leonardo</p>
+                    <p class="block md:hidden">Programador</p>
+                    <p class="block md:hidden">leo@leo.leo</p>
+                </td>
+                <td class="hidden md:table-cell">Programador</td>
+                <td class="hidden md:table-cell">leo@leo.leo</td>
+                <td>25</td>
+                <td><a href="">Editar</a></td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr class="border-b text-left text-sm border-gray-200 text-white">
+                <td class="py-2">
+                    <p class="font-bold text-blue-300">Leonardo</p>
+                    <p class="block md:hidden">Programador</p>
+                    <p class="block md:hidden">leo@leo.leo</p>
+                </td>
+                <td class="hidden md:table-cell">Programador</td>
+                <td class="hidden md:table-cell">leo@leo.leo</td>
+                <td>25</td>
+                <td><a href="">Editar</a></td>
+            </tr>
+        </tbody>
+    </table><br>
+
+    <h1 class="text-white text-3xl">Mais exemplos Hover</h1><br>
+    <button class="bg-red-200 p-4 hover:bg-blue-200 active:text-white">Clique Aqui</button>
+    <button class="bg-red-200 p-4 hover:bg-blue-200 active:text-white">Clique Aqui</button>
+    <input class="w-48 h-7 border-2 border-black focus:bg-green-200">
+    <input class="text-white w-48 h-7 border-2 border-black file:bg-green-600" type="file"><br><br>
+
+    <h1 class="text-white text-3xl">Usando Group</h1><br>
+    <div class="group/exemplo bg-blue-100 p-3 hover:bg-green-200">
+        <p class="text-black group-hover/exemplo:text-white">linha 1</p>
+        <p class="text-gray-500 group-hover/exemplo:text-white">linha 2</p>
+    </div><br>
+
+    <h1 class="xl text-white text-3xl">Pegando tema escudo do usuario</h1><br>
+    <div class="text-center w-24 h-24 bg-red-100 dark:bg-blue-800">muda a cor dependendo do tema do navegador/pc</div>
+    <br>
+</body>
+
+</html>
