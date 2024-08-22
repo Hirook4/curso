@@ -1,6 +1,6 @@
 /* Como temos informações fixas aqui criamos esse arquivo people.ts nessa pasta data e vamos exporta-lo */
 /* Tambem vamos tipar ele no arquivo person.ts dentra da pasta types */
-import { Person } from "@/types/person";
+import { Person } from "@/types/Person";
 
 /* Alem de tipar nós definimos que essa lista é do tipo Array de Person */
 export const peopleList: Person[] = [

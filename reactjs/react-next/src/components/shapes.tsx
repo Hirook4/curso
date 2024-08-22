@@ -22,8 +22,8 @@ export const Circle = () => {
 } */
 
 /* Juntando dois componentem em um e exportando */
-import { Circle } from "./circle";
-import { Square } from "./square";
+import { Circle } from "./Circle";
+import { Square } from "./Square";
 export const Shapes = () => {
     return (
         <div><Circle></Circle><Square></Square></div>

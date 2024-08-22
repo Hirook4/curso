@@ -2,16 +2,16 @@
 /* Importando default e componentes separados */
 /* import Default, { Square, Circle } from '@/components/shapes' */
 
-import { Card } from "@/components/card";
-import { EmojiRate } from "@/components/EmojiRate";
-import Exercicio1 from "@/components/Exercicio1";
-import { Person } from "@/components/person";
-import { Shapes } from "@/components/shapes";
+import { Card } from "@/components/Card";
+import { EmojiRate2 } from "@/components/EmojiRate2";
+import EmojiRate1 from "@/components/EmojiRate1";
+import { Person } from "@/components/Person";
+import { Shapes } from "@/components/Shapes";
 import { StudentTable } from "@/components/StudentsTable";
 /* Usando o componente shapes que une as duas formas */
 
 /* Usando o componente peopleList.ts da pasta data */
-import { peopleList } from "@/data/peopleList";
+import { peopleList } from "@/data/PeopleList";
 import { students } from "@/data/Student";
 
 const devs = peopleList.filter(person => person.job === 'Programador');
@@ -61,9 +61,9 @@ function Page() {
         </ul></>
       }
       <br /><br />
-      <Exercicio1></Exercicio1><br /><br />
+      <EmojiRate1></EmojiRate1><br /><br />
 
-      <EmojiRate rate={3.5} /> <br /> <br />
+      <EmojiRate2 rate={3.5} /> <br /> <br />
 
       <div>
         <StudentTable students={students} />
